@@ -24,4 +24,9 @@
 
 # 현재 브랜치 확인
  $ git branch -v
+ $ git branch -r
+
+# 로컬 브랜치를 리모트로로 저장하기
+  $ git push origin origin:refs/heads/new-feature
+  $ git push origin new-feature
 
